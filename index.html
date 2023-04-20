@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>João Marcos - Portifólio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--Lib da animação de scroll-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <!--Icones-->
+    <link rel="shortcut icon" href="Imagens/curriculo.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css"><!--Formatação da página-->
+</head>
+
+<body>
+
+    <nav id="nav1">
+        <div class="logo">
+            <p>Potifólio</p>
+        </div>
+
+        <div class="menu">
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#sobre"><i class="fa-solid fa-user"></i>Sobre</a></li>
+                <li><a href="#formacao"><i class="fa-solid fa-graduation-cap"></i>Formação</a></li>
+                <li><a href="#projetos"><i class="fa-solid fa-gear"></i>Projetos</a></li>
+                <li><a href="#contato"><i class="fa-solid fa-phone"></i>Contato</a></li>
+            </ul>
+        </div>
+
+        <div class="redes-sociais">
+
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+
+        </div>
+
+        <div class="menu-icone" id="menu-icone" onclick="menuShow()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+
+        <div class="menu-dropdown" id="menu-dropdown">
+            <ul>
+                <li><a href="#home"><i class="fa-solid fa-house"></i>Home</a></li>
+                <li><a href="#sobre"><i class="fa-solid fa-user"></i>Sobre</a></li>
+                <li><a href="#formacao"><i class="fa-solid fa-graduation-cap"></i>Formação</a></li>
+                <li><a href="#projetos"><i class="fa-solid fa-gear"></i>Projetos</a></li>
+                <li><a href="#contato"><i class="fa-solid fa-phone"></i>Contato</a></li>
+                <div class="kk">
+                <button class="curriculo"><i class="fa-solid fa-file"></i><a href="Imagens/Curriculo-Joao-Marcos.pdf"
+                    target="_blank">Currículo</a>
+                </button>
+                </div>
+            </ul>
+        </div>
+
+    </nav>
+
+    <header id="home">
+        <ul class="bolhas">
+            <li class="bolha"></li>
+            <li class="bolha"></li>
+           <!--<li class="bolha"><i class="fa-solid fa-graduation-cap"></i></li>
+            <li class="bolha"><i class="fa-solid fa-gear"></i></li>
+            <li class="bolha"><i class="fa-solid fa-phone"></i></li>
+            <li class="bolha"><i class="fa-solid fa-code"></i></li>--> 
+           
+        </ul>
+        <div class="circulo-1"></div>
+        <img src="Imagens/foto-perfil.png" alt="" data-aos="fade-left" data-aos-duration="1500">
+        <div class="circulo-2"></div>
+        <div class="apresentacao">
+            <p data-aos="fade-left" data-aos-duration="1500">Olá, sou o</p>
+            <h1 data-aos="fade-left" data-aos-duration="2000">João Marcos</h1>
+            <h2 data-aos="fade-left" data-aos-duration="2500">desenvolvedor</h2>
+            <button class="curriculo" data-aos="fade-left" data-aos-duration="3000"><i class="fa-solid fa-file"></i><a href="Imagens/Curriculo-Joao-Marcos.pdf"
+                    target="_blank">Currículo</a>
+            </button>
+            <div class="descer-div" data-aos="fade-left" data-aos-duration="3000">
+                <button class="descer"><a href="#sobre"><i class="fa-solid fa-arrow-down fa-bounce "></i></a></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="sobre-section" id="sobre">
+        <div class="sobre-titulo" data-aos="fade-up">
+            <h1 class="titulo"><i class="fa-solid fa-user"></i>Sobre</h1>
+        </div>
+        <div class="sobre-div sobre-div-1">
+            <div class="texto-div texto-div-1" data-aos="fade-right">
+                <p>Me chamo João Marcos, moro no interior de São Paulo e sou apaixonado por programação desde os 15
+                    anos.
+                </p>
+            </div>
+            <div class="img-div" data-aos="fade-left">
+                <img src="Imagens/sobre-2.png" class="sobre-imagem" alt="">
+            </div>
+        </div>
+        <div class="descer-div">
+            <button class="descer"><a href="#sobre-2"><i class="fa-solid fa-arrow-down "></i></a></button>
+        </div>
+        <div class="sobre-div sobre-div-2" id="sobre-2">
+            <div class="texto-div texto-div-2" data-aos="fade-left">
+                <p>Estudei no <strong>Colégio Técnico de Guaratinguetá</strong> , mais conhecido como CTIG, realizando
+                    junto ao ensino
+                    médio o curso de <strong>Automação Industrial</strong> , e atualmente, estou cursando
+                    <strong>Análise e Desenvolvimento de
+                        Sistemas na FATEC</strong> de Guaratinguetá.
+                </p>
+            </div>
+            <div class="img-div" data-aos="fade-right">
+                <img src="Imagens/sobre-1.png" class="sobre-imagem" alt="">
+            </div>
+        </div>
+        <div class="descer-div">
+            <button class="descer"><a href="#sobre-3"><i class="fa-solid fa-arrow-down "></i></a></button>
+        </div>
+        <div class="sobre-div sobre-div-3" id="sobre-3">
+            <div class="texto-div texto-div-1" data-aos="fade-right">
+                <p>Já fiz <strong>estágio de um ano na startup Step2Future </strong> , realizando diversos serviços como
+                    desenvolvimento
+                    web, programação de arduino, solda de componentes eletrônicos, solução de projetos e documentação de
+                    projetos com linguagem didática.
+                </p>
+            </div>
+            <div class="img-div" data-aos="fade-left">
+                <img src="Imagens/sobre-3.png" class="sobre-imagem" alt="">
+            </div>
+        </div>
+        <div class="descer-div">
+            <button class="descer"><a href="#sobre-4"><i class="fa-solid fa-arrow-down  "></i></a></button>
+        </div>
+        <div class="sobre-div sobre-div-4" id="sobre-4">
+            <div class="texto-div texto-div-2" data-aos="fade-left">
+                <p>Possuo <strong>inglês intemediário </strong> , estudando durante 2 anos na escola de idiomas King
+                    Kelp.
+                </p>
+            </div>
+            <div class="img-div" data-aos="fade-right">
+                <img src="Imagens/sobre-4.png" class="sobre-imagem" alt="">
+            </div>
+        </div>
+        <div class="descer-div">
+            <button class="descer"><a href="#formacao"><i class="fa-solid fa-arrow-down  "></i></a></button>
+        </div>
+    </div>
+
+    <div class="formacao-div">
+        <div class="formacao-titulo" id="formacao">
+            <h1><i class="fa-solid fa-graduation-cap"></i>Formação</h1>
+        </div>
+        <div class="container">
+            <div class="evento">
+                <div class="foto" data-aos="fade-right">
+                    <img src="Imagens/cotec.jpg" alt="">
+                </div>
+                <div class="fecha" data-aos="fade-left">
+                    <h3>Colégio Técnico Industrial - UNESP</h3>
+                    <h4>(2020 - 2022)</h4>
+                    <p>Ensino Médio e Curso Técnico</p>
+                </div>
+            </div>
+            <div class="evento">
+                <div class="foto" data-aos="fade-left">
+                    <img src="Imagens/fatec.jpg" alt="">
+                </div>
+                <div class="fecha" data-aos="fade-right">
+                    <h3>Faculdade de Tecnologia de Guaratinguetá</h3>
+                    <h4>(2023 - 2025)</h4>
+                    <p>Curso de Análise e Desenvolvimento de Sistemas</p>
+                </div>
+            </div>
+            <div class="evento">
+                <div class="foto" data-aos="fade-right">
+                    <img src="Imagens/udemy.png" alt="">
+                </div>
+                <div class="fecha" data-aos="fade-left">
+                    <h3>Curso de Desenvolvimento Web Completo</h3>
+                    <h4>(85 horas)</h4>
+                    <p>Curso realizado durante o meu estágio na startup Step2Future
+                    </p>
+                </div>
+            </div>
+            <div class="evento">
+                <div class="foto" data-aos="fade-left">
+                    <img src="Imagens/hashtag-treinamentos.png" alt="">
+                </div>
+                <div class="fecha" data-aos="fade-right">
+                    <h3>Evento Intensivão de Python</h3>
+                    <h4>(8 horas)</h4>
+                    <p>Evento feito pela Hashtag Treinamentos e realizado durante meu período no COTEC</p>
+                </div>
+            </div>
+
+        </div>
+        <ul class="teste">
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+        <div class="descer-div">
+            <button class="descer"><a href="#projetos"><i class="fa-solid fa-arrow-down fa-bounce "></i></a></button>
+        </div>
+    </div>
+
+    <div class="projetos-div">
+        <div class="projetos-titulo" id="projetos">
+            <h1><i class="fa-solid fa-gear"></i>Projetos</h1>
+        </div>
+        <div class="projetos-galeria">
+            <ul class="controles">
+                <li class="linguagens" data-filter="todos">Todos</li>
+                <li class="linguagens" data-filter="html">Web</li>
+                <li class="linguagens" data-filter="python">Python</li>
+                <li class="linguagens" data-filter="php">Php</li>
+                <li class="linguagens" data-filter="c">C++</li>
+            </ul>
+
+            <div class="galeria">
+              <!--<div class="card python">
+                    <div class="card-imagem">
+                        <a href="Imagens/chat com python.png" class="imagem ">
+                            <img src="Imagens/chat com python.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Sistema de chat</h2>
+                    </div>
+                </div>
+                <div class="card python">
+                    <div class="card-imagem">
+                        <a href="Imagens/Grafico_3D.png" class="imagem ">
+                            <img src="Imagens/Grafico_3D.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Gerador de Gráfico 3D</h2>
+                    </div>
+                </div>
+                <div class="card python">
+                    <div class="card-imagem">
+                        <a href="Imagens/comando_voz.png" class="imagem ">
+                            <img src="Imagens/comando_voz.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Comandos de Voz</h2>
+                    </div>
+                </div>
+                <div class="card c">
+                    <div class="card-imagem">
+                        <a href="Imagens/estoque.png" class="imagem ">
+                            <img src="Imagens/estoque.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Controle de estoque</h2>
+                    </div>
+                </div>
+                <div class="card c">
+                    <div class="card-imagem">
+                        <a href="Imagens/aulas_c++.png" class="imagem ">
+                            <img src="Imagens/aulas_c++.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Aulas de C++</h2>
+                    </div>
+                </div>
+                <div class="card php">
+                    <div class="card-imagem">
+                        <a href="Imagens/aulas_php.png" class="imagem ">
+                            <img src="Imagens/aulas_php.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Aulas de Php</h2>
+                    </div>
+                </div>
+                <div class="card html">
+                    <div class="card-imagem">
+                        <a href="Imagens/jplace-Login.png" class="imagem ">
+                            <img src="Imagens/jplace-Login.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Tela de Login Responsiva</h2>
+                    </div>
+                </div>
+                <div class="card html">
+                    <div class="card-imagem">
+                        <a href="Imagens/variaveis_css.png" class="imagem ">
+                            <img src="Imagens/variaveis_css.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Manipulando variáveis CSS com JS</h2>
+                    </div>
+                </div>
+                <div class="card html">
+                    <div class="card-imagem">
+                        <a href="Imagens/popup.png" class="imagem ">
+                            <img src="Imagens/popup.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Popup</h2>
+                    </div>
+                </div>-->
+               <!-- <div class="card ">
+                    <div class="card-imagem">
+                        <a href="Imagens/chat com python.png" class="imagem ">
+                            <img src="Imagens/chat com python.png"alt="">
+                        </a>
+                    </div>
+                    <div class="card-texto">
+                        <h2>Sistema de chat</h2>
+                    </div>
+                </div>-->
+                
+                <a href="https://github.com/JoaoMarcosCS/Chat_de_mensagem" target="_blank" class="imagem python">
+                    <img src="Imagens/chat com python.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/secao_de_projetos" target="_blank" class="imagem html">
+                    <img src="Imagens/secao de projetos.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Aulas_C-plus-plus" target="_blank" class="imagem c">
+                    <img src="Imagens/aulas_c++.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Comando_de_voz" target="_blank" class="imagem python">
+                    <img src="Imagens/comando_voz.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Estoque_linha_de_comando" target="_blank" class="imagem c">
+                    <img src="Imagens/estoque.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Grafico_3D" target="_blank" class="imagem python">
+                    <img src="Imagens/Grafico_3D.png" alt="">
+                </a>
+                <a href="Imagens/https://github.com/JoaoMarcosCS/Interface_Grafica" target="_blank" class="imagem python">
+                    <img src="Imagens/GUI_1.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/terminal_customizado" target="_blank" class="imagem ýthon">
+                    <img src="Imagens/terminal_customizado.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Tela-de-Login-Responsiva" target="_blank" class="imagem html">
+                    <img src="Imagens/tela_login.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Popup" target="_blank" class="imagem html">
+                    <img src="Imagens/popup.png" alt="">
+                </a>
+                <a href="https://github.com/JoaoMarcosCS/Aulas_PHP" target="_blank" class="imagem php">
+                    <img src="Imagens/aulas_php.png" alt="">
+                </a>
+                <ul class="teste2">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+    <footer>
+        <div class="contato-div" id="contato">
+
+            <div class="section-1">
+            <p class="contato-titulo">João Marcos - Portifólio</p>
+            </div>
+
+            <div class="section-2">
+            <div class="contato-contatos">
+                <i class="fa-solid fa-envelope"></i>
+                <a href="jmcsjoaomarcos@gmail.com" target="_blank">jmcsjoaomarcos@gmail.com</a>
+            </div>
+            <div class="contato-contatos">
+                <i class="fa-brands fa-linkedin"></i>
+                <a href="www.linkedin.com/in/joão-marcos-candido-da-silva-b90371251" target="_blank">www.linkedin.com/in/joão-marcos-candido-da-silva-b90371251</a>
+            </div>
+            <div class="contato-contatos">
+                <i class="fa-brands fa-github"></i>
+                <a href="https://github.com/JoaoMarcosCS" target="_blank">https://github.com/JoaoMarcosCS</a>
+            </div>
+            </div>
+<!--
+            <div class="section-3">
+                <ul>
+                    <li><a href="#home"><i class="fa-solid fa-house"></i></a></li>
+                    <li><a href="#sobre"><i class="fa-solid fa-user"></i></a></li>
+                    <li><a href="#formacao"><i class="fa-solid fa-graduation-cap"></i></a></li>
+                    <li><a href="#projetos"><i class="fa-solid fa-gear"></i></a></li>
+                    <li><a href="#contato"><i class="fa-solid fa-phone"></i></a></li>
+                </ul>
+            </div>
+-->
+        </div>
+
+        <div class="copyright">
+            Copyright <i class="fa-solid fa-copyright"></i>2023 Portifólio. Desenvolvido e estilizado por <span>João Marcos</span> 
+
+        </div>
+    </footer>
+    
+</body>
+
+<script src="script.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script><!--Lib do JS da animação do scroll-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"
+    integrity="sha512-pumBsjNRGGqkPzKHndZMaAG+bir374sORyzM3uulLV14lN5LyykqNk8eEeUlUkB3U0M4FApyaHraT65ihJhDpQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+<script>
+    /*Inicialização da animação*/
+    AOS.init({
+        once: true,
+        duration: 1000,
+    });
+
+    $(document).ready(function () {
+        $('.linguagens').click(function () {
+
+            $(this).addClass('active').siblings().removeClass('active')
+
+            var filter = $(this).attr('data-filter')
+
+            if (filter == 'todos') {
+                $('.imagem').show(400)
+            } else {
+                $('.imagem').not('.' + filter).hide(200)
+                $('.imagem').filter('.' + filter).show(400)
+            }
+        })
+        /*$('.projetos-galeria').magnificPopup({
+            /*items:{
+                src:'.card'
+            }, 
+            gallery: {
+                enabled: true,
+                tPrev: 'Anterior', // title for left button
+                tNext: 'Próxima', // title for right butto
+            }
+            delegate: 'a',
+            type: 'image',*/
+           /*items:{
+                src:'#sobre'
+            }, removalDelay: 300,
+            */
+            // Class that is added to popup wrapper and background
+            // make it unique to apply your CSS animations just to this exact popup
+            /*mainClass: 'mfp-fade',
+            gallery: {
+                enabled: true,
+                tPrev: 'Anterior', // title for left button
+                tNext: 'Próxima', // title for right butto
+            }*/
+        
+    })
+</script>
+
+</html>
