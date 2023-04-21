@@ -502,7 +502,6 @@ header img{
 	position: relative;
     overflow: hidden;
     padding: 20px;
-    overflow: hidden;
 }
 
 .evento::after {
@@ -855,11 +854,11 @@ header img{
     align-items: center;
     justify-content: center;
     width: 45px;
+    position: absolute;
     background-color: var(--roxo-1);
     display: flex;
     border-radius: 50%;
     bottom: -400px;
-    position: absolute;
 }
 
 .teste2 li:nth-child(1){
@@ -1146,14 +1145,22 @@ footer::after{
     padding: 0px 10px;
    }
    .container::after{
-    left: 8px;
+    left: 30%;
+   }
+   
+   .foto{
+    display: none;
+   }
+   .evento{
+    justify-content: start;
    }
    .evento::after{
-    top: 0;
-    left: 0;
+    top: calc(10%-9px);
+    left: 29.25%;
    }
-   .foto img{
-    display: none;
+   .fecha{
+    margin-left: 35%;
+    box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
    }
 }
 @media screen and (max-width:700px){
@@ -1161,12 +1168,35 @@ footer::after{
         width: 650px;
         height: 650px;
     }
+    .container::after{
+        left: 10%;
+       }
+    .evento::after{
+        top: calc(10%-9px);
+        left: 8.8%;
+       }
+       .fecha{
+        margin-left: 12%;
+        width: 80%;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, .3);
+       }
+       .projetos-div .projetos-titulo{
+        padding: 25px 0px;
+        z-index: 12;
+       }
+       .teste2 li:nth-child(1){
+        z-index: 1;
+        transform: translateY(-1800px);
+       }
 }
 
 @media  screen and (max-width:600px) {
     .sobre-imagem{
         width: 550px;
         height: 550px;
+    }
+    .contato-div .section-2, .contato-div .section-1{
+        padding-left: 10%;
     }
 }
 
@@ -1214,6 +1244,20 @@ footer::after{
     .sobre-imagem{
         width: 350px;
         height: 350px;
+    }
+
+}
+
+@media screen and (max-width:450px) {
+
+    .evento::after{
+        left: 8.5%;
+    }
+}
+
+@media screen and (max-width:350px){
+    .evento::after{
+        left: 8.1%;
     }
 }
 
