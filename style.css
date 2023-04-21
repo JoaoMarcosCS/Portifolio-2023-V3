@@ -1233,6 +1233,9 @@ footer::after{
         width: 450px;
         height: 450px;
     }
+    .evento::after{
+        left: 8.2%;
+    }
 }
 
 @media screen and (max-width:400px){
@@ -1244,6 +1247,9 @@ footer::after{
     .sobre-imagem{
         width: 350px;
         height: 350px;
+    }
+    .evento::after{
+        left: -5%;
     }
 
 }
@@ -1257,7 +1263,7 @@ footer::after{
 
 @media screen and (max-width:350px){
     .evento::after{
-        left: 8.1%;
+        left: 7.5%;
     }
 }
 
