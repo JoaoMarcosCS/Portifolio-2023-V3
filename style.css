@@ -15,10 +15,12 @@
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    overflow-y:hidden;
 }
 
 body{
     background-color: #111;
+    overflow-y:scroll;
 }
 
 li{list-style: none;}
